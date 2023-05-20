@@ -19,7 +19,7 @@ class _RegisterState extends State<Register> {
         child: ElevatedButton(
             style: ElevatedButton.styleFrom(
               elevation: 5.0,
-              foregroundColor: Colors.redAccent,
+              foregroundColor: Colors.purpleAccent,
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(30.0),
               ),
@@ -50,7 +50,7 @@ class _RegisterState extends State<Register> {
           const Text(
             "Name",
             style: TextStyle(
-                color: Colors.redAccent,
+                color: Colors.purpleAccent,
                 fontSize: 18,
                 fontWeight: FontWeight.w500),
             //style: kLabelStyle,
@@ -69,7 +69,8 @@ class _RegisterState extends State<Register> {
               ),
               decoration: InputDecoration(
                 focusedBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Colors.redAccent, width: 1.0),
+                  borderSide:
+                      BorderSide(color: Colors.purpleAccent, width: 1.0),
                 ),
                 enabledBorder: OutlineInputBorder(
                   borderSide: BorderSide(
@@ -78,7 +79,7 @@ class _RegisterState extends State<Register> {
                 contentPadding: EdgeInsets.only(top: 14.0),
                 prefixIcon: Icon(
                   Icons.person,
-                  color: Colors.redAccent,
+                  color: Colors.purpleAccent,
                 ),
                 hintText: 'Josh Dellas',
               ),
@@ -97,7 +98,7 @@ class _RegisterState extends State<Register> {
             const Text(
               "Select Gender",
               style: TextStyle(
-                  color: Colors.redAccent,
+                  color: Colors.purpleAccent,
                   fontSize: 18,
                   fontWeight: FontWeight.w500),
               //style: kLabelStyle,
@@ -119,7 +120,7 @@ class _RegisterState extends State<Register> {
                   gend = newValue as String;
                 });
               },
-              border: Border.all(color: Colors.redAccent, width: 1), //border
+              border: Border.all(color: Colors.purpleAccent, width: 1), //border
               borderRadius: BorderRadius.circular(10), //border radius
               style: const TextStyle(
                   //text style
@@ -137,7 +138,7 @@ class _RegisterState extends State<Register> {
           const Text(
             "Contact Number",
             style: TextStyle(
-                color: Colors.redAccent,
+                color: Colors.purpleAccent,
                 fontSize: 18,
                 fontWeight: FontWeight.w500),
             //style: kLabelStyle,
@@ -156,7 +157,8 @@ class _RegisterState extends State<Register> {
               ),
               decoration: InputDecoration(
                 focusedBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Colors.redAccent, width: 1.0),
+                  borderSide:
+                      BorderSide(color: Colors.purpleAccent, width: 1.0),
                 ),
                 enabledBorder: OutlineInputBorder(
                   borderSide: BorderSide(
@@ -165,7 +167,7 @@ class _RegisterState extends State<Register> {
                 contentPadding: EdgeInsets.only(top: 14.0),
                 prefixIcon: Icon(
                   Icons.phone_android,
-                  color: Colors.redAccent,
+                  color: Colors.purpleAccent,
                 ),
                 hintText: 'XXXX-XXXXXXX',
               ),
@@ -182,7 +184,7 @@ class _RegisterState extends State<Register> {
           const Text(
             "Password",
             style: TextStyle(
-                color: Colors.redAccent,
+                color: Colors.purpleAccent,
                 fontSize: 18,
                 fontWeight: FontWeight.w500),
             //style: kLabelStyle,
@@ -201,7 +203,8 @@ class _RegisterState extends State<Register> {
               ),
               decoration: InputDecoration(
                 focusedBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Colors.redAccent, width: 1.0),
+                  borderSide:
+                      BorderSide(color: Colors.purpleAccent, width: 1.0),
                 ),
                 enabledBorder: OutlineInputBorder(
                   borderSide: BorderSide(
@@ -210,7 +213,7 @@ class _RegisterState extends State<Register> {
                 contentPadding: EdgeInsets.only(top: 14.0),
                 prefixIcon: Icon(
                   Icons.lock,
-                  color: Colors.redAccent,
+                  color: Colors.purpleAccent,
                 ),
                 hintText: 'Password',
               ),
@@ -227,7 +230,7 @@ class _RegisterState extends State<Register> {
           const Text(
             "Email",
             style: TextStyle(
-                color: Colors.redAccent,
+                color: Colors.purpleAccent,
                 fontSize: 18,
                 fontWeight: FontWeight.w500),
           ),
@@ -254,7 +257,7 @@ class _RegisterState extends State<Register> {
                 contentPadding: EdgeInsets.only(top: 14.0),
                 prefixIcon: Icon(
                   Icons.email,
-                  color: Colors.redAccent,
+                  color: Colors.purpleAccent,
                 ),
                 hintText: 'abc.xyz@nu.edu.pk',
               ),
@@ -267,7 +270,7 @@ class _RegisterState extends State<Register> {
     return Scaffold(
       appBar: AppBar(
         elevation: 0.0,
-        backgroundColor: Colors.redAccent,
+        backgroundColor: Colors.purpleAccent,
         title: const Text('Sign Up'),
       ),
       body: Stack(children: <Widget>[

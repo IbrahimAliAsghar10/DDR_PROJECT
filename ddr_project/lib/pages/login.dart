@@ -22,7 +22,7 @@ class _LoginState extends State<Login> {
         child: ElevatedButton(
             style: ElevatedButton.styleFrom(
               elevation: 5.0,
-              backgroundColor: Colors.redAccent,
+              backgroundColor: Colors.purpleAccent,
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(30.0),
               ),
@@ -53,7 +53,7 @@ class _LoginState extends State<Login> {
         child: ElevatedButton(
             style: ElevatedButton.styleFrom(
               elevation: 5.0,
-              backgroundColor: Colors.redAccent,
+              backgroundColor: Colors.purpleAccent,
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(30.0),
               ),
@@ -81,18 +81,19 @@ class _LoginState extends State<Login> {
       return Row(
         children: <Widget>[
           Theme(
-              data: ThemeData(unselectedWidgetColor: Colors.redAccent),
+              data: ThemeData(unselectedWidgetColor: Colors.purpleAccent),
               child: Checkbox(
                 value: _rememberme,
                 checkColor: Colors.white,
-                activeColor: Colors.redAccent,
+                activeColor: Colors.purpleAccent,
                 onChanged: (value) {
                   setState(() {
                     _rememberme = value!;
                   });
                 },
               )),
-          const Text("Remember Me", style: TextStyle(color: Colors.redAccent)),
+          const Text("Remember Me",
+              style: TextStyle(color: Colors.purpleAccent)),
         ],
       );
     }
@@ -103,7 +104,7 @@ class _LoginState extends State<Login> {
         child: TextButton(
             onPressed: (() => debugPrint("Forgot Password Button Pressed")),
             child: const Text("Forgot Password?",
-                style: TextStyle(color: Colors.redAccent))),
+                style: TextStyle(color: Colors.purpleAccent))),
       );
     }
 
@@ -131,7 +132,8 @@ class _LoginState extends State<Login> {
               ),
               decoration: InputDecoration(
                 focusedBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Colors.redAccent, width: 1.0),
+                  borderSide:
+                      BorderSide(color: Colors.purpleAccent, width: 1.0),
                 ),
                 enabledBorder: OutlineInputBorder(
                   borderSide: BorderSide(
@@ -195,7 +197,7 @@ class _LoginState extends State<Login> {
     return Scaffold(
       appBar: AppBar(
         elevation: 0.0,
-        backgroundColor: Colors.redAccent,
+        backgroundColor: Colors.purpleAccent,
         title: const Text('Login'),
         actions: <Widget>[
           IconButton(

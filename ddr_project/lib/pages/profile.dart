@@ -116,7 +116,7 @@ class _ProfileState extends State<Profile> {
     return Scaffold(
         appBar: AppBar(
             elevation: 0.0,
-            backgroundColor: Colors.redAccent,
+            backgroundColor: Colors.purpleAccent,
             title: const Text('My Account Details'),
             actions: <Widget>[
               IconButton(
@@ -140,7 +140,9 @@ class _ProfileState extends State<Profile> {
           //width: MediaQuery.of(context).size.width / 2,
           decoration: BoxDecoration(
             border: Border.all(
-                style: BorderStyle.solid, color: Colors.redAccent, width: 2.5),
+                style: BorderStyle.solid,
+                color: Colors.purpleAccent,
+                width: 2.5),
             borderRadius: BorderRadius.circular(20),
             color: const Color.fromARGB(255, 255, 244, 244),
           ),

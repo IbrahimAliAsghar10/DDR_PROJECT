@@ -10,16 +10,16 @@ class CartProducts extends StatefulWidget {
 class _CartProductsState extends State<CartProducts> {
   var productsOnTheCart = [
     {
-      "name": "Blazer",
-      "picture": "images/products/blazer1.jpeg",
+      "name": "Women Blazer",
+      "picture": "images/products/blazer2.jpeg",
       "price": "90",
       "size": "M",
       "color": "Black",
       "quantity": "1",
     },
     {
-      "name": "Red Dress",
-      "picture": "images/products/dress1.jpeg",
+      "name": "Black Dress",
+      "picture": "images/products/dress2.jpeg",
       "price": "90",
       "size": "M",
       "color": "Red",
@@ -89,7 +89,7 @@ class SingleCartProducts extends StatelessWidget {
                   padding: const EdgeInsets.all(8.0),
                   child: Text(
                     cartSize,
-                    style: const TextStyle(color: Colors.redAccent),
+                    style: const TextStyle(color: Colors.purpleAccent),
                   ),
                 ),
                 //==============Product Color============
@@ -97,7 +97,7 @@ class SingleCartProducts extends StatelessWidget {
                   padding: const EdgeInsets.fromLTRB(20.0, 8.0, 8.0, 8.0),
                   child: Text(
                     cartColor,
-                    style: const TextStyle(color: Colors.redAccent),
+                    style: const TextStyle(color: Colors.purpleAccent),
                   ),
                 )
               ],
@@ -109,7 +109,7 @@ class SingleCartProducts extends StatelessWidget {
               child: Text(
                 "\$$cartPrice",
                 style: const TextStyle(
-                    color: Colors.redAccent,
+                    color: Colors.purpleAccent,
                     fontWeight: FontWeight.bold,
                     fontSize: 18.0),
               ),

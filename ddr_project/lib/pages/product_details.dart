@@ -24,7 +24,7 @@ class _ProductDetailsState extends State<ProductDetails> {
     return Scaffold(
       appBar: AppBar(
         elevation: 0.0,
-        backgroundColor: Colors.redAccent,
+        backgroundColor: Colors.purpleAccent,
         title: const Text('ShopApp'),
         actions: const <Widget>[
           IconButton(
@@ -68,7 +68,7 @@ class _ProductDetailsState extends State<ProductDetails> {
                         child: Text(
                           "\$${widget.productDetailsPrice}",
                           style: const TextStyle(
-                              color: Colors.redAccent,
+                              color: Colors.purpleAccent,
                               fontWeight: FontWeight.bold),
                         ),
                       )
@@ -189,7 +189,7 @@ class _ProductDetailsState extends State<ProductDetails> {
                       MaterialPageRoute(builder: (context) => const Login()),
                     );
                   },
-                  color: Colors.redAccent,
+                  color: Colors.purpleAccent,
                   textColor: Colors.white,
                   elevation: 0.2,
                   child: const Text("Buy Now"),
@@ -198,12 +198,12 @@ class _ProductDetailsState extends State<ProductDetails> {
               IconButton(
                 onPressed: () {},
                 icon: const Icon(Icons.add_shopping_cart),
-                color: Colors.redAccent,
+                color: Colors.purpleAccent,
               ),
               IconButton(
                 onPressed: () {},
                 icon: const Icon(Icons.favorite_border),
-                color: Colors.redAccent,
+                color: Colors.purpleAccent,
               )
             ],
           ),

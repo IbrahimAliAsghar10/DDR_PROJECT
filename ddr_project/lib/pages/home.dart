@@ -18,8 +18,8 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         elevation: 0.0,
-        backgroundColor: Colors.redAccent,
-        title: const Text('ShopApp'),
+        backgroundColor: Colors.purpleAccent,
+        title: const Text('Shopping App'),
         actions: <Widget>[
           const IconButton(
               icon: Icon(
@@ -54,7 +54,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ),
               ),
-              decoration: const BoxDecoration(color: Colors.redAccent),
+              decoration: const BoxDecoration(color: Colors.purpleAccent),
             ),
             // body
             InkWell(
@@ -66,7 +66,7 @@ class _HomePageState extends State<HomePage> {
               },
               child: const ListTile(
                 title: Text('Home'),
-                leading: Icon(Icons.home, color: Colors.redAccent),
+                leading: Icon(Icons.home, color: Colors.purpleAccent),
               ),
             ),
 
@@ -77,14 +77,15 @@ class _HomePageState extends State<HomePage> {
               },
               child: const ListTile(
                 title: Text('My account'),
-                leading: Icon(Icons.person, color: Colors.redAccent),
+                leading: Icon(Icons.person, color: Colors.purpleAccent),
               ),
             ),
             InkWell(
               onTap: () {},
               child: const ListTile(
                 title: Text('My orders'),
-                leading: Icon(Icons.shopping_basket, color: Colors.redAccent),
+                leading:
+                    Icon(Icons.shopping_basket, color: Colors.purpleAccent),
               ),
             ),
             InkWell(
@@ -94,21 +95,21 @@ class _HomePageState extends State<HomePage> {
               },
               child: const ListTile(
                 title: Text('Shopping Cart'),
-                leading: Icon(Icons.shopping_cart, color: Colors.redAccent),
+                leading: Icon(Icons.shopping_cart, color: Colors.purpleAccent),
               ),
             ),
             InkWell(
               onTap: () {},
               child: const ListTile(
                 title: Text('Categories'),
-                leading: Icon(Icons.dashboard, color: Colors.redAccent),
+                leading: Icon(Icons.dashboard, color: Colors.purpleAccent),
               ),
             ),
             InkWell(
               onTap: () {},
               child: const ListTile(
                 title: Text('Favorites'),
-                leading: Icon(Icons.favorite, color: Colors.redAccent),
+                leading: Icon(Icons.favorite, color: Colors.purpleAccent),
               ),
             ),
             const Divider(),

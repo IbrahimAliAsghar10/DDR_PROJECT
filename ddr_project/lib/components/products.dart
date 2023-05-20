@@ -11,8 +11,8 @@ class Products extends StatefulWidget {
 class _ProductsState extends State<Products> {
   static const productList = [
     {
-      "name": "Blazer",
-      "picture": "images/products/blazer1.jpeg",
+      "name": "Women Blazer",
+      "picture": "images/products/blazer2.jpeg",
       "oldPrice": "120",
       "price": "90",
     },
@@ -23,20 +23,20 @@ class _ProductsState extends State<Products> {
       "price": "90",
     },
     {
-      "name": "Red Dress",
-      "picture": "images/products/dress1.jpeg",
+      "name": "Black Dress",
+      "picture": "images/products/dress2.jpeg",
       "oldPrice": "120",
       "price": "90",
     },
     {
-      "name": "Red Heals",
-      "picture": "images/products/hills2.jpeg",
+      "name": "Heals",
+      "picture": "images/products/hills1.jpeg",
       "oldPrice": "120",
       "price": "90",
     },
     {
       "name": "Trouser",
-      "picture": "images/products/pants1.jpg",
+      "picture": "images/products/pants2.jpeg",
       "oldPrice": "120",
       "price": "90",
     },
@@ -97,7 +97,8 @@ class SingleProduct extends StatelessWidget {
                     title: Text(
                       "\$$price",
                       style: const TextStyle(
-                          color: Colors.redAccent, fontWeight: FontWeight.w800),
+                          color: Colors.purpleAccent,
+                          fontWeight: FontWeight.w800),
                     ),
                     subtitle: Text(
                       "\$$oldPrice",
